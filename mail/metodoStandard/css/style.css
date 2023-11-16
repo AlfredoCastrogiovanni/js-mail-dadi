@@ -1,0 +1,87 @@
+/* Imported Font */
+@import url();
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Classes */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(193, 192, 192);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+/* Main */
+main .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+main .form label {
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+main .form input {
+    width: 500px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(193, 192, 192);
+    border: none;
+    border-radius: 5px;
+}
+
+main .form button {
+    padding: 0.5rem 1rem;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(193, 192, 192);
+}
+
+main #wrapper {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+main #wrapper h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+main #wrapper p {
+    font-size: 20px;
+    font-weight: bold;
+}
